@@ -24,6 +24,3 @@ print(greeting)
 with open("greeting_diary.txt", 'a', encoding="utf-8") as file:
     time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     file.write(f'{time}: {greeting}\n')
-
-print(script_dir)
-print(txt_file_path)    
